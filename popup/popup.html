@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<h2>师傅要天天开心哦</h2>
+  <meta charset="UTF-8">
+  <title>域名权重查询</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>域名权重查询 by 响应云安全</h2>
+    <div class="domain-display">
+      当前域名: <span id="current-domain">-</span>
+    </div>
+    
+    <div class="weight-results" id="weight-results" style="display: none;">
+      <div class="engine-card" id="baidu-pc">
+	  <h2>百度PC</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="百度PC">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+      
+      <div class="engine-card" id="baidu-mobile">
+	  <h2>百度移动</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="百度移动">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+      
+      <div class="engine-card" id="engine-360">
+	  <h2>360</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="360搜索">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+      
+      <div class="engine-card" id="engine-shenma">
+	  <h2>神马搜索</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="神马搜索">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+      
+      <div class="engine-card" id="engine-sougou">
+	  <h2>搜狗搜索</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="搜狗搜索">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+      
+      <div class="engine-card" id="engine-google">
+	  <h2>谷歌搜索</h2>
+        <img class="engine-logo" src="https://himg.bdimg.com/sys/portrait/item/public.1.5b382d0f.6ZvpBqCJTbU4k8IpeiuoPg?tt=1754234447250" alt="Google">
+        <div class="weight-info">
+          <span class="weight-value">-</span>
+          <img class="weight-img" src="" alt="权重图片">
+        </div>
+      </div>
+    </div>
+    
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>正在查询权重数据...</p>
+    </div>
+    
+    <div class="error" id="error" style="display: none;">
+      <p>查询失败，请重试</p>
+      <button id="retry-btn">重新查询</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
