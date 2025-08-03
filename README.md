@@ -29,3 +29,7 @@ v1.0（2023-11-15）
 
 # UI页面
 <img width="351" height="599" alt="image" src="https://github.com/user-attachments/assets/f3187b6e-6fa3-4e7d-ae4f-d21a0120b455" />
+
+## 微信公众号：响应云SRC  
+
+### 本项目属于为爱发电项目 求求大佬点点小星星 感谢
